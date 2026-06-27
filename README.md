@@ -13,3 +13,12 @@ This builds from source (needs the `rust` build toolchain, installed automatical
 ```sh
 ytm
 ```
+
+Cookies are optional. Public search and playback work without a cookie file. For signed-in
+YouTube Music access or gated tracks, export a Netscape-format `cookies.txt` to:
+
+```sh
+~/Music/ytm-tui/cookies.txt
+```
+
+Keep that file private; it can act like a logged-in browser session.
