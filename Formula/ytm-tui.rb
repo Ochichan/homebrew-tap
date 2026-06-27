@@ -1,8 +1,8 @@
 class YtmTui < Formula
   desc "Fast, low-RAM YouTube Music player for your terminal"
   homepage "https://github.com/Ochichan/ytm-tui"
-  url "https://github.com/Ochichan/ytm-tui/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "84b78c6d4b33dda47938ea6013cd0cfacd866dbb46c62847cd2d50bbf7e8222b"
+  url "https://github.com/Ochichan/ytm-tui/archive/refs/tags/v1.1.1.tar.gz"
+  sha256 "1ccd03f4ef6e5112bdae3297f90bde751de41dd65862e352e75c447382757f0a"
   license "MIT"
   head "https://github.com/Ochichan/ytm-tui.git", branch: "main"
 
