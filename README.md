@@ -14,6 +14,8 @@ This builds from source (needs the `rust` build toolchain, installed automatical
 ytm
 ```
 
+Downloads are saved to `~/Music/ytm-tui` by default.
+
 Cookies are optional. Public search and playback work without a cookie file. For signed-in
 YouTube Music access or gated tracks, export a Netscape-format `cookies.txt` to:
 
