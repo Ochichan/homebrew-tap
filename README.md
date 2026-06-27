@@ -11,7 +11,7 @@ This builds from source (needs the `rust` build toolchain, installed automatical
 `mpv` and `yt-dlp` for playback. Then run:
 
 ```sh
-ytm
+ytt
 ```
 
 Downloads are saved to `~/Music/ytm-tui` by default.

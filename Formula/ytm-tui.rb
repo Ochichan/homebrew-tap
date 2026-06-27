@@ -1,8 +1,8 @@
 class YtmTui < Formula
   desc "Fast, low-RAM YouTube Music player for your terminal"
   homepage "https://github.com/Ochichan/ytm-tui"
-  url "https://github.com/Ochichan/ytm-tui/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "6367ac3f80de75475ac902bd7a950905a304ffed63a4d956fe92f20354d558c6"
+  url "https://github.com/Ochichan/ytm-tui/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "84b78c6d4b33dda47938ea6013cd0cfacd866dbb46c62847cd2d50bbf7e8222b"
   license "MIT"
   head "https://github.com/Ochichan/ytm-tui.git", branch: "main"
 
@@ -15,6 +15,6 @@ class YtmTui < Formula
   end
 
   test do
-    assert_path_exists bin/"ytm"
+    assert_path_exists bin/"ytt"
   end
 end
