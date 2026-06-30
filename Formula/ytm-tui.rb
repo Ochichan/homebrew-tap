@@ -20,22 +20,22 @@ class YtmTui < Formula
   on_macos do
     on_arm do
       url "https://github.com/Ochichan/ytm-tui/releases/download/v1.5.5/ytm-tui-macos-arm64.tar.gz"
-      sha256 "719b77d2fc3ea8ad9aba81dae26852a1a012778df14cb3f8df599dca18f1148a"
+      sha256 "a3c5c9ec564e38f288ff1003c5e3b01616d5d8f766bcc223322c67de6258d3c4"
     end
     on_intel do
       url "https://github.com/Ochichan/ytm-tui/releases/download/v1.5.5/ytm-tui-macos-x64.tar.gz"
-      sha256 "22ffc47e5127caa8bc9573e76a314d81eb879e5d61b44310a9cfdd74a797b2e2"
+      sha256 "2187e348b3d7ed031d83847f05ca01abfa5977f8729b57aadcc0a63e2f10ca29"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Ochichan/ytm-tui/releases/download/v1.5.5/ytm-tui-linux-arm64.tar.gz"
-      sha256 "06e297bc5461a5cef03e768cfbc6ccffe85909f01ba1c0a0369b3b6a6b068298"
+      sha256 "3ae09844296a67bd4f6d01b36461ae8b4f1a184ee250481f6e1b164e0b5abd79"
     end
     on_intel do
       url "https://github.com/Ochichan/ytm-tui/releases/download/v1.5.5/ytm-tui-linux-x64.tar.gz"
-      sha256 "138ede688263c3454a19ad96aed7b1991d74fbd1897dfb66bd89e13b97df8edf"
+      sha256 "a732bc13a66107093aebad63273bf56ce6682f0797752ba015ea342d1aab926f"
     end
   end
 
