@@ -6,7 +6,8 @@
 # A prebuilt-binary formula: it installs the binaries straight from the GitHub release
 # (no Rust toolchain, no compile) and pulls in the three runtime tools as dependencies, so
 # `brew install Ochichan/tap/ytm-tui` is genuinely one command. macOS also gets `ytt-desktop`,
-# the menu-bar companion (run it once, or `ytt-desktop --install-startup` for login). The
+# the menu-bar companion (`ytt-desktop --background`, or `ytt-desktop --install-startup`
+# for login). The
 # tarball's YtmTui.app / YPlayer.app bundles are Finder conveniences; the formula
 # installs only the CLIs and ignores the .apps.
 class YtmTui < Formula
@@ -22,22 +23,22 @@ class YtmTui < Formula
   on_macos do
     on_arm do
       url "https://github.com/Ochichan/ytm-tui/releases/download/v1.6.0/ytm-tui-macos-arm64.tar.gz"
-      sha256 "8995c6eac5fd995fa36d04ea9da8e0d01c7c5e8e664ae4f967e1e3fc05948e0e"
+      sha256 "eedd6c62fd4ccae77a99dad97a90a999daf1c24c28815fade3a11b6652c63980"
     end
     on_intel do
       url "https://github.com/Ochichan/ytm-tui/releases/download/v1.6.0/ytm-tui-macos-x64.tar.gz"
-      sha256 "960c0de0ee914a58838c6bba3384af138c119ea91c0f80f8137711cf9448bf8b"
+      sha256 "1d0cb6889ad90670122d60a847a31fff9603d4e17b3248ef1d104057b80200b5"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Ochichan/ytm-tui/releases/download/v1.6.0/ytm-tui-linux-arm64.tar.gz"
-      sha256 "0ab93c3ecac20dc2d9be8e6b5339a8523b4f6cbb91d2ea78fd99d4d080f2ad18"
+      sha256 "9db7947dac9f9200169f75b6d80d2770dc7ab479f8d0f5ef5fcaa8f5f723009c"
     end
     on_intel do
       url "https://github.com/Ochichan/ytm-tui/releases/download/v1.6.0/ytm-tui-linux-x64.tar.gz"
-      sha256 "206f083deafff3723a5b9094f869595b0456c3ba2702ff1fada2fdc66d8dee17"
+      sha256 "b378ef5f64a5218dc50b3d7ff55ba3ca00cc03c7da8785541189db98e89c67fa"
     end
   end
 
@@ -52,7 +53,7 @@ class YtmTui < Formula
     on_macos do
       <<~EOS
         The menu-bar companion is installed as `ytt-desktop`.
-        Start it now with `ytt-desktop`, or keep it at login with:
+        Start it now with `ytt-desktop --background`, or keep it at login with:
           ytt-desktop --install-startup
       EOS
     end
