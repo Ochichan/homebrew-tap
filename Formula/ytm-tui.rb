@@ -13,7 +13,7 @@
 class YtmTui < Formula
   desc "Fast, low-RAM YouTube Music player for your terminal"
   homepage "https://github.com/Ochichan/ytm-tui"
-  version "1.6.1"
+  version "1.6.2"
   license "MIT"
 
   depends_on "ffmpeg"
@@ -22,23 +22,23 @@ class YtmTui < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Ochichan/ytm-tui/releases/download/v1.6.1/ytm-tui-macos-arm64.tar.gz"
-      sha256 "9a3352062bce9e0dcac84cc7e0a7dac6afc13d6e7a455ec676ea2f53de1863da"
+      url "https://github.com/Ochichan/ytm-tui/releases/download/v1.6.2/ytm-tui-macos-arm64.tar.gz"
+      sha256 "957fa7b19f8304f7ce43219e590984676dfab943979167b212cff069a4d4af55"
     end
     on_intel do
-      url "https://github.com/Ochichan/ytm-tui/releases/download/v1.6.1/ytm-tui-macos-x64.tar.gz"
-      sha256 "7d51f219adcb733a5ec9223c49117afb986f274485b4d805faeed835201f8f00"
+      url "https://github.com/Ochichan/ytm-tui/releases/download/v1.6.2/ytm-tui-macos-x64.tar.gz"
+      sha256 "19f2606be26c0ca965c89f2713084302433f896c4bfc79e63d87ee96c28a5e90"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Ochichan/ytm-tui/releases/download/v1.6.1/ytm-tui-linux-arm64.tar.gz"
-      sha256 "3082bc1b3ad20e40c902b9c051c38cc210f15d53aea52be0f24869c6221c70e0"
+      url "https://github.com/Ochichan/ytm-tui/releases/download/v1.6.2/ytm-tui-linux-arm64.tar.gz"
+      sha256 "6e9106a86caf4d7cf40e58e883cb579cd20d00b954f320c3316cb5b09e273d2e"
     end
     on_intel do
-      url "https://github.com/Ochichan/ytm-tui/releases/download/v1.6.1/ytm-tui-linux-x64.tar.gz"
-      sha256 "f2701eb1303a6538fefab8aa4390e279f2212c006d7f44a28442b891aee3bb84"
+      url "https://github.com/Ochichan/ytm-tui/releases/download/v1.6.2/ytm-tui-linux-x64.tar.gz"
+      sha256 "fcb91744f6d8c1798e26ce3e41b3f6fcd870ddf022f17ce54a093d8d51667689"
     end
   end
 
