@@ -13,7 +13,7 @@
 class Yututui < Formula
   desc "Fast, low-RAM YouTube Music player for your terminal"
   homepage "https://github.com/Ochichan/Yututui"
-  version "1.6.24"
+  version "1.6.26"
   license "MIT"
 
   depends_on "ffmpeg"
@@ -22,23 +22,23 @@ class Yututui < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Ochichan/Yututui/releases/download/v1.6.24/yututui-macos-arm64.tar.gz"
-      sha256 "57e685fe33317c51347e937a9aecbd8183f7b7fe8c2ea484301a34bad7eb6014"
+      url "https://github.com/Ochichan/Yututui/releases/download/v1.6.26/yututui-macos-arm64.tar.gz"
+      sha256 "0653f9b688964a93cf528e04bfa2df4466fc5bbb1f3c589d783c0e6c10936bab"
     end
     on_intel do
-      url "https://github.com/Ochichan/Yututui/releases/download/v1.6.24/yututui-macos-x64.tar.gz"
-      sha256 "755731da56545d65076daedc95cb651fa143140fef433ca8428f50688fbcf308"
+      url "https://github.com/Ochichan/Yututui/releases/download/v1.6.26/yututui-macos-x64.tar.gz"
+      sha256 "4a440988a07b610f727fe216acfdfa473ef33674c06c05810d69b793a5a5b79a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Ochichan/Yututui/releases/download/v1.6.24/yututui-linux-arm64.tar.gz"
-      sha256 "5e6a91070294153d8c6b154b85f510b088c9233d0ef22049b2ce90c4b8c2bbe2"
+      url "https://github.com/Ochichan/Yututui/releases/download/v1.6.26/yututui-linux-arm64.tar.gz"
+      sha256 "83f716738e99bea0a1c21121e27a1c9cc86eb5946b475b592f20b055a4f84694"
     end
     on_intel do
-      url "https://github.com/Ochichan/Yututui/releases/download/v1.6.24/yututui-linux-x64.tar.gz"
-      sha256 "5105bb97490ad269e3a3af34c0b8311218e7cfe8108d921c05cbb00e86bf55af"
+      url "https://github.com/Ochichan/Yututui/releases/download/v1.6.26/yututui-linux-x64.tar.gz"
+      sha256 "d04cd6d2a1a5b2a57fd6d4ddd03160e35b930e79f0bd2a5f3c83a5aa39d17762"
     end
   end
 
